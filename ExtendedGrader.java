@@ -51,5 +51,7 @@ public class ExtendedGrader {
 		
 		//Challenge: make the computer print exactly the following (cut)
 		System.out.println("\nFrom: Bill Smith\nAddress: Dell Computer, Bldg 13\nDate: April 12, 2005\n\nTo: Jack Jones\n\nMessage: Help! I'm trapped inside a computer!");
+		//Showing new commits
+		System.out.println("Modifying this program for GitHub.com");
 	}
 }
