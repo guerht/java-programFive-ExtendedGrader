@@ -61,7 +61,7 @@ public class ExtendedGrader {
 		}
 		else {
 			System.out.println("\nWelcome to the String program 1!\n");
-			// program 1
+			// number 1
 			String s = "The number of rabbits is ";
 			int argh = 129;
 			String report = s + argh;
@@ -86,6 +86,17 @@ public class ExtendedGrader {
 			String s2 = "Surface Tension";
 			count2 = s2.length();
 			System.out.println(count2);
+			// number 7
+			String m1 = "Look Here!";
+			System.out.println("\"" + m1 + "\" has " + m1.length() + " characters!");
+			// number 11
+			String pq = "Eddie Haskel";
+			int hm = pq.length();
+			String ed = pq.substring(hm-4);
+			System.out.println(ed);
+			// number 12
+			String monster = "Herman Munster";
+			System.out.println(monster.substring(5, 6));
 		}
 	}	
 }
